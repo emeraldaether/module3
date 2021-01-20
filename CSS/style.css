@@ -20,8 +20,9 @@ body {
 #header-nav .container {
 	min-height: 100px;
 	margin: 0px;
-
 }
+
+
 
 #navbar-brand {
 	position:absolute;
@@ -33,8 +34,9 @@ body {
 
 
 #collapsable-nav {
-	background-color: #99cc99;
+	background-color: #999999;
 	margin-top: 50px;
+	color: #00005f;
 }
 
 #nav-list ul {
@@ -73,34 +75,71 @@ body {
 	margin-right: 0px;
 	position: relative;
 	width: 100%;
+	padding: 0px;
 }
 
 h1 {
-	position: relative;
-	float: none;
 	color: white;
-}
-#chicken {
-	background-color: #ffffff;
-	margin-left: 10px;
-	margin-right: 10px;
+	width: 100%;
 	position: relative;
-	top: 100px;
+	top: 50px;
+}
+div#chicken {
+	
+	position: relative;
+	top: 50px;
+
 }
 
 #chicken p {
+	background-color: #ccccde;
+	margin-left: 10px;
+	margin-right: 10px;
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 50px;
+	font-style: italic;
+	height: 1000px;
+	overflow: hidden;
+	float: left;
+}
 
+#footer {
+	height: 100px;
+}
+
+#main-content .row {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
 /*///////////////LARGE DEVICES//////////////////*/
 
+@media (min-width: 992px) {
 
+}
 
 
 /*//////////////MEDIUM DEVICES////////////////////*/
+@media (min-width: 768px) and (max-width: 991px) {
 
+
+#chicken p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+}
 
 
 
 
 /*///////////////////SMALL DEVICES///////////////*/
+
+@media (max-width: 767px) {
+
+#chicken p {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+}
